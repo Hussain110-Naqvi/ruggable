@@ -1,4 +1,4 @@
-Repository Navigation 
+**Repository Navigation**
 
 Models are generated under the models folder and also have their subsequent dbt tests attached with them in the corresponding .yml file. The macros folder contains custom SQL tests that reference each model. Snapshots are saved under the snapshots folder.
 
@@ -6,11 +6,11 @@ There are a total of 4 models, 2 snapshots, and 12 tests. All have passed and ha
 
 The sample_output folder showcases sample outputs of each model.
 
-Preface
+**Preface**
 
 As there wasn't nessecarily a direct business question that was asked, I operated with a sense of novelty in identifying any patterns or unique data stores that could offer meaning. There could certainly be more analysis's that could be done with this dataset, but given the time limitations, I thought to address some that stood out to me. As well, I've defined some metrics by myself and based on my interpretation of the data - it's entirely possible that the business team may have a completely different method of determining some of these metrics. 
 
-Models & Insights
+**Models & Insights**
 
 Operations
 
