@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: below_depletion_level
+    description: "Model for identifying products below depletion level"
+    columns:
+      - name: name
+        tests:
+          - not_null
+      - name: variant
+        tests:
+          - not_null
+    tests:
+      - below_depletion_level_tests

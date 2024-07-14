@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: priority_order 
+    description: "Model for calculating profit margin and ensuring product and variant are not null"
+    columns:
+      - name: name
+        tests:
+          - not_null
+      - name: variant
+        tests:
+          - not_null
+      - name: profit
+        tests:
+          - not_null

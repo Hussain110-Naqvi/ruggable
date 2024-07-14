@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: hot_upsell 
+    description: "Model for checking new arrival stock depletion and calculating profit margin"
+    columns:
+      - name: name
+        tests:
+          - not_null
+      - name: variant
+        tests:
+          - not_null
+    tests:
+      - new_arrival_stock_depletion_test

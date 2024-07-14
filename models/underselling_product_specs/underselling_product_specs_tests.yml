@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: underselling_product_specs
+    columns:
+      - name: name
+        tests:
+          - not_null
+      - name: stock_depletion_ratio
+        tests:
+          - not_null    
+
+    tests:
+      - underselling_specs_test
